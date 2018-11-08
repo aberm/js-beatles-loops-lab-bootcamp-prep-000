@@ -7,3 +7,13 @@ function theBeatlesPlay(m, ins) {
   }
   return z
 }
+
+function johnLennonFacts(f) {
+  var z = [];
+  var counter = 0
+  while (counter < f.length) {
+    z.push(f[counter] + '!!!');
+    counter++;
+  }
+  return z;
+}
